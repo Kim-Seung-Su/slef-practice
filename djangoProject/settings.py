@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-from pathlib import Path,os
+import os
+from pathlib import Path
 import environ
 env = environ.Env(
     # set casting, default value
@@ -17,13 +18,12 @@ env = environ.Env(
 )
 # reading .env file
 
-)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-environ.Env.read_env(
-    env_file= os.path.join(BASE_DIR,'.env')
+environ.Env.read_env()
+env_file= os.path.join(BASE_DIR,'.env')
 
 
 # Quick-start development settings - unsuitable for production
