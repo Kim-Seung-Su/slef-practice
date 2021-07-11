@@ -75,7 +75,9 @@ fabric.properties
 
 venv/
 
-.env
+djangoProject/.env
 
 db.sqlite3
-.idea
+.idea/
+
+__pycache__/
