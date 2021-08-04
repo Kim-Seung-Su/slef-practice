@@ -1,0 +1,20 @@
+.django_header{
+    text-align: center; margin: 2rem 0;
+}
+
+.django_header_button{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.django_footer{
+    text-align: center; margin-top: 2rem;
+}
+
+.django_footer_logo{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 1rem;
+}
+
+.django_footer_button{
+    font-size: 0.6rem;
+}
