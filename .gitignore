@@ -75,7 +75,7 @@ fabric.properties
 
 venv/
 
-djangoProject/.env
+.env
 
 db.sqlite3
 .idea/
